@@ -11,7 +11,7 @@ document.getElementById('submit-btn').addEventListener('click', ()=> {
     // DO NOT VERIFY EMAIL AND PASSWORD ON THE CLIENT SIDE
     // step:4 verify email and password
     if(email === 'shakil@gmail.com' && password === 'shakil123') {
-        location.href = "../bank.html"
+        location.href = "../bank/index.html";
     }
     else {
         alert(' Tui password vule gesot. Toke ami tejjon sontan kore dilam.')
